@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegiterActivity"
+    android:background="#FDFCFC">
+
+
+
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="REGISTER"
+            android:textColor="#FF5722"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editTextText1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="text"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"/>
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="text"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"
+            tools:ignore="DuplicateIds" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"/>
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"/>
+
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Select Gender"
+            android:inputType="text"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"/>
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="Enter Date of Birth"
+            android:inputType="text"
+            android:textColorHint="#7C6C6C"
+            android:textSize="12dp"
+            android:backgroundTint="#FF5722"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="23dp"
+            android:text="I Accept the UTS"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="-18dp"
+            android:lineBreakStyle="normal"
+            android:text="Terms of Use"
+            android:textColor="#FF5722"
+            android:textSize="9dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="and"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="-15dp"
+            android:text="privacy policy"
+            android:textColor="#ff5722"
+            android:textSize="11dp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#ED410A"
+            android:text="REGISTER"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-392dp"
+        android:background="#EF7050">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo1"
+             />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="UTS"
+            android:textColor="@color/white"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IR Unreserved Ticketing "
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="-40dp"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

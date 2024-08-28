@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Regiter</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confrim_password">confrim password</string>
+    <string name="register">REGISTER</string>
+    <string name="ir_unreserved_ticketing">IR Unreserved Ticketing</string>
+    <string name="uts">UTS</string>
+    <string name="_12">12</string>
+    <string name="dont_t_have_an_account">Dont\'t have an account?</string>
+    <string name="generate_otp">GENERATE OTP</string>
+    <string name="login_with">LOGIN WITH</string>
+</resources>

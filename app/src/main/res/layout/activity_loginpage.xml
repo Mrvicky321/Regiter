@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegiterActivity"
+    android:background="#F4F0F0">
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="500dp"
+        android:background="#F8F4F4"
+        android:layout_marginStart="1dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/login_with"
+                android:textColor="#FF5722"
+                android:textSize="14sp" />
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:text="PASSWORD"
+                    android:textSize="9sp"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+                <RadioButton
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="-120dp"
+                    android:text="OTP"
+                    android:textSize="9sp"
+                    android:buttonTint="@android:color/darker_gray"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+            </RadioGroup>
+
+
+            <EditText
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="1dp"
+                android:autofillHints="0"
+                android:backgroundTint="#FF5722"
+                android:hint="Mobile Number"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="156dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#FF5722"
+                android:text="@string/generate_otp"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dont_t_have_an_account"
+            android:layout_marginTop="299dp"
+            android:layout_marginStart="-400dp"
+            android:gravity="center"
+            android:textSize="8sp"
+            tools:ignore="SmallSp" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/xml_button"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/register"
+        android:layout_marginTop="326dp"
+        android:layout_marginStart="-300dp"
+        android:backgroundTint="#FF5722"
+        android:textSize="9sp"
+        tools:ignore="SmallSp" />
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="-269dp"
+        android:background="#FF5722"
+        tools:ignore="ExtraText">
+        />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/_12"
+            android:scrollbarSize="80dp"
+            android:src="@drawable/uts_logo"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:contentDescription="@string/_12"
+            android:src="@drawable/baseline_circle_notifications_24"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="@string/uts"
+            android:textColor="@color/white"
+            android:layout_marginStart="-290dp"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ir_unreserved_ticketing"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="-39dp"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
